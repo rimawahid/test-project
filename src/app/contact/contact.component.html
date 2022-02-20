@@ -1,0 +1,12 @@
+<p>
+  contact works!
+</p>
+
+<div class="container">
+  <form #fromData="ngForm" (ngSubmit)="addUser(fromData.value)">
+    Name: <input type="text" class="form-control" name="name" ngModel >
+    password: <input type="password" class="form-control" name="password" ngModel >
+    <br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>

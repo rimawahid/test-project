@@ -1,0 +1,15 @@
+<p>
+  employee-list works!
+</p>
+<table class="table table-hoer">
+  <tr *ngFor="let emp of allEmployee">
+    <td>{{emp.firstName}}</td>
+    <td>{{emp.lastName}}</td>
+    <td>{{emp.designation}}</td>
+    <td>{{emp.contact}}</td>
+    <td>{{emp.address}}</td>
+    <td><button class="btn btn-success" (click)="edit(emp)">Edit</button></td>
+    <td><button class="btn btn-primary" (click)="deleteEmployee(emp.id)">Delete</button></td>
+  </tr>
+  
+</table>
