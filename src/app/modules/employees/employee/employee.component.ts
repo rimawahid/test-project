@@ -30,6 +30,18 @@ export class EmployeeComponent implements OnInit {
   }
 
   updateEmployee(emp: Employee) {
-this.employeeService.updateEmployee(emp).subscribe()
+    this.employeeService.updateEmployee(emp).subscribe()
+  }
+
+  clear(){
+    this.employeeService.currentEmployee={
+      firstName: '',
+      lastName: '',
+      designation: '',
+      contact: null,
+      id: null,
+      address: ''
+    }
+  
   }
 }

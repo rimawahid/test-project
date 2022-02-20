@@ -2,19 +2,19 @@
   "Employee": [
     {
       "id": 1,
-      "firstName": "sdfs",
-      "lastName": "Dgfdg",
+      "firstName": "Mr A",
+      "lastName": "kk",
       "designation": "developer",
       "contact": 321456987,
       "address": "Dhaka"
     },
     {
       "id": 4,
-      "firstName": "gfhfgj",
-      "lastName": "vbbv",
-      "designation": "mbnm",
-      "contact": "bmnbn",
-      "address": "bnbn,"
+      "firstName": "Mr ",
+      "lastName": "Onil",
+      "designation": "Designer",
+      "contact": "123654789",
+      "address": "Dhaka"
     }
   ]
 }
